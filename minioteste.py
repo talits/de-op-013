@@ -3,7 +3,7 @@ import os
 
 if __name__ == "__main__":
 
-    FILE = "/Users/zeuser/pasta/data/gato.jpeg"
+    FILE = "<path>"
     ACCESS_KEY = os.getenv('ACCESS_KEY')
     SECRET_KEY = os.getenv('SECRET_KEY')
     MINIO_API_HOST = "http://localhost:9000"
